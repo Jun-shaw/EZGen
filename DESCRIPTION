@@ -1,0 +1,29 @@
+Package: EZGen
+Title: Convenient multi-omics tool for filter key genes.
+Version: 0.0.1
+Authors@R: 
+    person(
+    	given="Junxiao", 
+    	family="Shen",
+    	email="junxiao0709@outlook.com", 
+    	role=c("cre", "aut"),
+    )
+Description: Efficiently utilize multi-omics high-throughput sequencing data for selecting key genes and establish a validation model, including visualization..
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    DESeq2,
+    dplyr,
+    easyTCGA,
+    ggplot2,
+    limma,
+    TCGAbiolinks
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+LazyData: true
